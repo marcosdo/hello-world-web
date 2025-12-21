@@ -1,0 +1,1 @@
+// Functions for app.js can be added here in the future
