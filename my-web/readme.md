@@ -12,7 +12,7 @@ Guía paso a paso. Se ha seguido la guía de Amazon:
 
 ## Pre-requisitos 
 
-### Registrar 
+### Poseer un dominio
 
 Antes de nada, se ha debido registrar y configurar un dominio. En este caso se ha registrado el dominio `mkdo.es`
 
@@ -37,8 +37,7 @@ En mi caso, el dominio no se ha registrado con Amazon así que voy a:
 > [Making Amazon Route 53 the DNS service for an existing domain.](https://docs.aws.amazon.com/pdfs/Route53/latest/DeveloperGuide/route53-dg.pdf#%5B%7B%22num%22%3A23688%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C36%2C402.36%2Cnull%5D)
 >
 
-1. *Get your current DNS configuration from the current DNS service provider
-(inactive domains)*
+1. *Get your current DNS configuration from the current DNS service provider (inactive domains)*
 
 Como la configuración DNS es simple, tan solo debemos crear manualmente algunas entradas en la consola de *Route 53*.
 
