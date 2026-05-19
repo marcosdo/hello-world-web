@@ -3,6 +3,8 @@ name: Deploy static web to S3 + CloudFront
 on:
   push:
     branches: ["main"]
+  
+  workflow_dispatch: # Permite ejecutar el workflow manualmente desde la interfaz de GitHub.
 
 permissions:
   contents: read
